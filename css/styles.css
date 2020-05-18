@@ -150,6 +150,12 @@ p {
   line-height: 1.6;
 }
 
+li {
+    font-family: "futura-pt", sans-serif;
+    font-size: 1em;
+    font-weight: lighter;
+    font-size-adjust:none;
+  }
 footer {
  font-family:  "futura-pt", sans-serif;
  font-size: 1em;
@@ -159,6 +165,9 @@ footer {
  padding: 20px;
 }
 
+img {
+  width: 100%
+}
 .title-banner {
     background-color: #5C6A60;
     color: white;
@@ -173,4 +182,36 @@ footer {
      margin:  5px 25px 25px 25px;
      padding: 25px;
      border: 25px;
+}
+
+.button {
+  background-color: #5D506B; /* PURPLE */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "futura-pt", sans-serif;
+  font-size: 1.25em;
+  border-radius: 8px;
+}
+
+.button :hover {
+  opacity: 0.5;
+  text-decoration: none;
+}
+.button.contact {
+    background-color: transparent;
+    color: #5D506B !important;
+    text-transform: uppercase;
+    border: 2px solid #5D506B;
+    font-family: "futura-pt", sans-serif;
+    font-size: 1em;
+    border-radius: 8px;
+}
+
+.button.contact :hover {
+  background-color: #5D506B;
+  color: #ffffff !important;
 }
