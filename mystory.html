@@ -1,36 +1,42 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-    <head>
-      <meta charset="utf-8">
-      <title>About</title>
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-      <link href="favicon.ico" rel="shorcut icon">
-    </head>
+<head>
+    <meta charset="utf-8">
+    <title>My Story</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css"
+          href="https://use.typekit.net/bal2nhw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="favicon.ico" rel="shorcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
   <body>
-    <header>
-      <div> <!-- Container div -->
-          <img src="img/sitephotos/logox1.png" alt="shelley-logo">
-      </div>
-      <nav>
-          <ul>
-              <li><a href="index.html">Home</a></li>
-              <li><a href="work.html">Work</a></li>
-              <li><a href="#" class="active">My Story</a></li>
-              <li><a href="contact.html">Contact</a></li>
-          </ul>
-      </nav>
-    </header>
+    <!--header -->
+    <div class="header">
+          <div class="logo">
+              <img src="img/sitephotos/transparentx2.png" alt="logo">
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="work.html">Work</a></li>
+                  <li><a href="#" class="active">My Story</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+    </div>
     <main>
-          <div><!-- Container div -->
-            <h1>About</h1>
-            <picture>
-              <source srcset="img/shelleyphotos/greecex1.png" media="(max-width: 767px)">
-              <img src="img/shelleyphotos/greecex1.png" alt="Shelley Greece">
-            </picture>
-              <h3>“And suddenly you know: It's time to start
-                  something new and trust the magic of beginnings.”</h3>
-              <p> ― Meister Eckhart</p>
-
+          <div class="title-banner">
+            <h1>My Story</h1>
+          </div>
+              <picture>
+                <source srcset="img/shelleyphotos/greecex1.png" media="(max-width: 767px)">
+                <img src="img/shelleyphotos/greecex1.png" alt="Shelley Greece">
+              </picture>
+          <div class="quote">
+                <h2>“And suddenly you know: It's time to start something new and trust the magic of beginnings.”</h2>
+                <p> ― Meister Eckhart</p>
+          </div>
             <div><!-- Row div - MY STORY / SKILLS SECTION -->
               <div><!-- Column div -->
                 <h1>My Story</h1>
@@ -58,14 +64,15 @@
                     more I came to see how much I was already doing this process as a trainer and
                     nutrition coach. The design process has very similar components to training
                     program design.</p>
-                  <p>Communication - Compassion - Empathy - Problem Solving - Detailed - Curious -
+                  <p>
+                    Communication - Compassion - Empathy - Problem Solving - Detailed - Curious -
                     Fearlessness -Patience - Reliability</p>
                   <a href="files/ShelleyCucinottaResume.pdf" target="_blank">View Resume</a>
                 </div>
             </div>
           </div>
           <div>
-            <div><!-- Column div -->
+            <div id="skills"><!-- Column div -->
               <h1>Tools</h1>
                   <ul>
                     <li>Adobe Xd</li>
@@ -81,12 +88,25 @@
                     <li>Wireframing and Prototyping</li>
                     <li>Visual Communication</li>
                   </ul>
-                  </div>
               </div>
             <div>
-              <a href="about.html#skills">Skills and Tools</a>
+              <a href="mystory.html#skills">Skills and Tools</a>
             </div>
-        </div>
       </main>
+      <footer>
+        <div><!-- Column div -->
+          <div>
+            <h3>Let's work together!</h3>
+            <h4>Contact me</h4>
+              <a href="mailto:shelleyacucinotta@gmail.com">Email</a>
+          </div>
+          <div>
+              <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
+              <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
+          </div>
+              <p> &#169; Shelley Cucinotta 2020</p>
+        </div>
+      </footer>
   </body>
 </html>
