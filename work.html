@@ -1,78 +1,91 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
-  <head>
+<head>
     <meta charset="utf-8">
     <title>Work</title>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="css/styles.css"
+          href="https://use.typekit.net/bal2nhw.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="favicon.ico" rel="shorcut icon">
-  </head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
   <body>
-  <header>
-        <div> <!-- Container div -->
-            <img src="img/sitephotos/logox1.png" alt="shelley-logo">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="#" class="active">Work</a></li>
-                <li><a href="mystory.html">My Story</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-  </header>
+    <!--header -->
+    <div class="header">
+          <div class="logo">
+              <img src="img/sitephotos/transparentx2.png" alt="logo">
+          </div>
+          <nav>
+              <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="#" class="active">Work</a></li>
+                  <li><a href="mystory.html">My Story</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+    </div>
   <main>
-        <div>
+        <div class="title-banner">
           <h1>Design. Create. Explore. Fun.</h1>
-          <h4>(some call it Work)</h4>
+          <h3>(Some Call it Work)</h3>
         </div>
         <div>
           <h2>Design</h2>
             <div> <!-- Container div -->
             <ul>
               <div><!-- Column div -->
-                <a href="Ink-Tank.html"></a>
-                  <img src="img/inktank/logox1.png" alt="ink-tank">
+                <a href="inktank.html">
+                  <picture>
+                    <source srcset="img/inktank/logos/x1.png" media="(max-width: 767px)">
+                  </picture>
+                </a>
                 <h3>Find. Design. Connect. </h3>
                 <span> Ink Tank is a mobile app that will help users find the perfect
                       tattoo and connect them with an experienced artist.
                       <a href="inktank.html">Ink Tank case study</a>
                 </span>
               </div>
-                <div><!-- Column div -->
+              <div><!-- Column div -->
+                <a href="rockypeak.html">
                   <picture>
-                    <source srcset="img/rockypeak/logox1.png" media="(max-width: 767px)">
-                    <img src="img/rockypeak/logox2.png" alt="rocky-peak-logo">
+                    <source srcset="img/rockypeak/logos/x1.png" media="(max-width: 767px)">
+                    <img src="img/rockypeak/logos/x3.png" alt="rocky-peak-logo">
                   </picture>
-                </div>
+                </a>
                 <h3> Explore the most beautful trails in the Rocky Mountains</h3>
                 <span>Rocky Peak will help users find the perfect hiking or backpacking
                       trails, users can find educated on wildnerness safety and engage
                       with others who enjoy the outdoors.</span>
                     <a href="rocky-peak">Rocky Peak case study</a>
               </div>
-              <div class="rfc-logo">
-                <img src="img/rfclogos/logox1.png" alt="rfc-logo">
-                <h3>Real Coaching. Real Results.</h3>
-                <span> Raw Fitness Coaching is a fitness website that provides in-person
-                      and online training, small group training and nutrition coaching.</span>
-                        <a href="rfc">Raw Fitness Coaching</a>
-              </div>
+                <a href="rawfitnesscoaching.html">
+                  <picture>
+                    <source srcset="img/rfc/logos/x1.png" media="(max-width: 767px)">
+                    <img src="img/rfc/logos/x2.png" alt="rfc-logo">
+                  </picture>
+                </a>
+                  <h3>Real Coaching. Real Results.</h3>
+                  <span> Raw Fitness Coaching is a fitness website that provides in-person
+                        and online training, small group training and nutrition coaching.</span>
+                   <a href="rfc">Check out Raw Fitness Coaching</a>
+          </div>
       </main>
       <!-- footer -->
       <footer>
-          <div><!-- Column div -->
-            <h2>Let's work together!</h2>
-            <p>Contact me</p>
-            <div>
-                <a href="mailto:shelleyacucinotta@gmail.com">Email me</a>
-            </div>
-            <div>
-                <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
-                <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
-                <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
-            <div>
-                <p> &#169; Shelley Cucinotta 2020</p>
-            </div>
+        <div><!-- Column div -->
+          <div>
+            <h3>Let's work together!</h3>
+            <h4>Contact me</h4>
+              <a href="mailto:shelleyacucinotta@gmail.com">Email</a>
+          </div>
+          <div>
+              <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
+              <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
+              <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
+          </div>
+              <p> &#169; Shelley Cucinotta 2020</p>
+        </div>
       </footer>
   </body>
 </html>
