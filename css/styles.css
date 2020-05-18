@@ -1,37 +1,67 @@
 html{
   font-size: 16px;
   background-color: white;
-  text-align: center;
-  margin: 2px;
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.header {
+  background-color: white;
+  height: 150px;
+  top: 0;
+  padding: 15px;
+  border: 15px;
+  margin: 25;
+  position: fixed;
+  width: 100%;
 }
 
 .logo {
-  margin: 5px;
-  padding: 10px;
   float: left;
+  position: fixed;
+  background-color: white;
 }
+
 .profile {
-  width: 15%;
-  height: auto;
   float: left;
+  width: auto;
+  margin: 20px;
+}
+
+.intro {
+    background-color: white;
+    margin:  250px 25px 100px 25px;
+    padding: 75px;
+    border: 25px;
 }
 
 nav {
-  float:right;
-  margin-right: 100px;
+  width: 100%;
+  background-color: white;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  margin-left: 65%;
+  position: fixed;
+  float: right;
+  height: 75px;
+  padding: 25px;
+  border: 5px;
 }
 
 nav ul {
   padding: 5px 5px;
   width: 100%;
   list-style: none;
+  float: right;
+  position: fixed;
+
 }
 
 nav li {
   display: inline-block;
   margin-left: 10px;
   margin-right: 10px;
-  padding-top: 50px;
+  padding-top: 25px;
 }
 
 nav a{
@@ -44,15 +74,30 @@ nav a{
   text-transform: uppercase;
 }
 
-.hero{
-  text-align: center;
-
+nav a:hover, a:focus {
+  background-color: #5C6A60;
+  opacity: 0.5;
+  color: white;
+  font-weight: 300;
 }
-.work-banner {
+
+nav a:active {
+    background: #5C6A60;
+    color: white;
+    opacity: 0.5;
+  }
+
+.section-break {
   text-align: center;
   font-family: "futura-pt", sans-serif;
-  font-weight: 300;
+  font-weight: 400;
+  color: white;
+  font-size: 2.5em;
   background-color: #5C6A60;
+  height: 60px;
+  padding: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 hr {
@@ -64,39 +109,68 @@ hr {
   border-bottom: 10px;
 }
 
+ul {
+  list-style-type: none;
+}
+
 h1 {
   font-family: "futura-pt", sans-serif;
-  font-size: 40px;
+  font-size: 2.5em;
   font-weight: 500;
-  font-style: normal;
-  line-height: normal;
-
+  line-height: 1.6;
 }
+
 h2 {
   font-family: "futura-pt", sans-serif;
-  font-size: 28px;
+  font-size: 1.75em;
   font-weight: 400;
-  font-style: normal;
-  line-height: normal;
+  line-height: 1.6;
 }
 
 h3 {
   font-family: "futura-pt", sans-serif;
-  font-size: 20px;
+  font-size: 1.5em;
   font-weight: 300;
-  font-style: normal;
+  line-height: 1.6;
 }
+
 h4 {
   font-family: "futura-pt", sans-serif;
-  font-size: 20px;
+  font-size: 1.25em;
   font-weight: 200;
-  font-style: normal;
+  line-height: 1.6;
 }
+
 p {
   font-family: "futura-pt", sans-serif;
-  font-size: 16px;
+  font-size: 1em;
   font-weight: lighter;
   font-size-adjust:none;
-  text-align: center;
   padding: 20px;
+  line-height: 1.6;
+}
+
+footer {
+ font-family:  "futura-pt", sans-serif;
+ font-size: 1em;
+ font-weight: lighter;
+ font-size-adjust:none;
+ text-align: left;
+ padding: 20px;
+}
+
+.title-banner {
+    background-color: #5C6A60;
+    color: white;
+    text-align: center;
+    margin-top:  250px;
+    margin-bottom: 100px;
+    padding: 25px;
+}
+.quote {
+     background-color: white;
+     text-align: center;
+     margin:  5px 25px 25px 25px;
+     padding: 25px;
+     border: 25px;
 }
