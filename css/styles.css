@@ -74,7 +74,8 @@ nav a{
   text-transform: uppercase;
 }
 
-nav a:hover, a:focus {
+nav a:hover 
+    a:focus {
   background-color: #5C6A60;
   opacity: 0.5;
   color: white;
