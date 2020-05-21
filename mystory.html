@@ -2,41 +2,42 @@
 <html lang="en" dir="ltr">
 
 <head>
-  <meta charset="utf-8">
-  <title>My Story</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="stylesheet" href="https://use.typekit.net/bal2nhw.css">
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link href="favicon.ico" rel="shorcut icon">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-<body>
-  <main>
-      <div class="header"><!--header -->
-        <div class="logo">
-          <img src="img/sitephotos/transparentx2.png" alt="logo">
-        </div>
-        <nav>
-          <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="work.html">Work</a></li>
-            <li><a href="#" class="active">My Story</a></li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
-        </nav>
+    <meta charset="utf-8">
+    <title>My Story</title>
+    <link rel="stylesheet" type="css/styles.css" href="https://use.typekit.net/bal2nhw.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="favicon.ico" rel="shorcut icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  </head>
+
+  <body id=“mystory.html”>
+    <header><!--header -->
+      <div class="logo">
+        <img src="img/sitephotos/transparentx1.png" alt="logo" class="center">
       </div>
-      <div>  <!-- Row div / ABOUT -->
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="work.html">Work</a></li>
+          <li><a href="#" class="active">My Story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div><!-- Row div / ABOUT -->
         <picture>
           <source srcset="img/shelleyphotos/greecex1.png" media="(max-width: 767px)">
           <img src="img/shelleyphotos/greecex1.png" alt="Shelley Greece">
         </picture>
-        <h3>“And suddenly you know: It's time to start
-          something new and trust the magic of beginnings.”</h3>
-        <p> ― Meister Eckhart</p>
+        <div class="quote">
+          <h3>“And suddenly you know: It's time to start
+            something new and trust the magic of beginnings.”</h3>
+          <p> ― Meister Eckhart</p>
+        </div>
       </div>
-      <div><!-- Row div - MY STORY / SKILLS SECTION -->
-        <div>  <!-- Column div / MY STORY -->
+      <div>  <!-- Row div - MY STORY / SKILLS SECTION -->
+        <div class="my-story">  <!-- Column div / MY STORY -->
           <h1>My Story</h1>
           <p>
             As much as I loved my career I knew it was time. Time to grow, to explore,
@@ -46,7 +47,7 @@
             out there. I researched, asked questions, and read articles about any career
             that interested me. Then I found UX Design and I knew that was it.
           </p>
-          <p>What was it that pulled me in?</p>
+          <h4><strong>What was it that pulled me in?</strong></h4>
           <ul>
             <li>I found enjoyment for the entire design process</li>
             <li>I was very intrigued by how much focus is on the user needs</li>
@@ -60,13 +61,14 @@
             very different and a bit overwhelming. Yet, the more I studied UX Design the
             more I came to see how much I was already doing this process as a trainer and
             nutrition coach. The design process has very similar components to training
-            program design.</p>
-          <p>Communication - Compassion - Empathy - Problem Solving - Detailed - Curious -
-            Fearlessness -Patience - Reliability</p>
-          <a href="files/ShelleyCucinottaResume.pdf" class="button" target="_blank"> View Resume</a>
+            program design.
+          </p>
+          <h4>Communication - Compassion - Empathy - Problem Solving - Detailed - Curious -
+            Fearlessness -Patience - Reliability</h4>
+          <a href="files/ShelleyCucinottaResume.pdf" class="button resume" target="_blank"> View Resume</a>
         </div>
-        <div id="skills"><!-- Column div / TOOLS AND SKILLS -->
-          <h1>Tools</h1>
+        <div class="skills">  <!-- Column div / TOOLS AND SKILLS -->
+          <h2>Tools</h2>
           <ul>
             <li>Adobe Xd</li>
             <li>Figma</li>
@@ -74,7 +76,7 @@
             <li>Invision</li>
             <li>HTML, CSS, Javascript</li>
           </ul>
-          <h1>Skills</h1>
+          <h2>Skills</h2>
           <ul>
             <li>User Research</li>
             <li>Collaboration</li>
@@ -84,19 +86,18 @@
         </div>
       </div>
     </main>
-  <footer>
-        <div> <!-- Row div -->
-          <div>
-            <h3>Let's work together!</h3>
-            <a href="mailto:shelleyacucinotta@gmail.com" class="button contact">Send me an email</a>
-          </div>
-          <div>
-            <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
-          </div>
-          <p> &#169; Shelley Cucinotta 2020</p>
+    <footer>
+      <div><!-- Row div -->
+        <h3>Let's work together!</h3>
+        <a href="mailto:shelleyacucinotta@gmail.com" class="button contact">Send me an email</a>
+        <div class="social">
+          <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
+          <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
+          <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
         </div>
-      </footer>
-</body>
+        <p> &#169; Shelley Cucinotta 2020</p>
+      </div>
+    </footer>
+  </body>
+
 </html>
