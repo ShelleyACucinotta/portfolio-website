@@ -48,8 +48,8 @@ a{
 a:visited { /* visited link */
   background: #5C6A60;
 }
-  a:hover,
-  a:focus {
+a:hover,
+a:focus {
     background-color: #5C6A60;
     opacity: 0.75;
     color: white;
@@ -84,7 +84,19 @@ a:active {  /* selected link */
 .work {
   text-align: center;
   padding: 5px;
-  margin: 5px;
+  margin: 10px;
+}
+
+#inktankdisplay {
+  padding: 10px;
+  margin: 15px 5px;
+  text-align: center;
+}
+
+.process {
+  padding: 10px;
+  margin: 15px;
+  text-align: center;
 }
 .section-break {
   text-align: center;
@@ -96,6 +108,9 @@ a:active {  /* selected link */
   padding: 10px;
   border: 10px;
   margin: 25px 0;
+}
+.pdflink {
+  text-align: center;
 }
 
 ul {
