@@ -1,93 +1,91 @@
 html{
   font-size: 16px;
   background-color: white;
-  margin-top: 5px;
   margin-bottom: 20px;
 }
 
-.header {
+header {
   background-color: white;
-  height: 150px;
-  top: 0;
-  padding: 15px;
-  border: 15px;
-  margin: 25;
-  position: fixed;
-  width: 100%;
+  margin-top: 50px;
+  text-align: center;
+  position: relative;
+  padding: 10px 0;
 }
 
 .logo {
-  float: left;
-  position: fixed;
+    display: inline-block;
+    position: relative;
+}
+
+nav {
   background-color: white;
+  border: 15px;
+  padding: 5px;
+  align-items: center;
+  display: inline-block;
+  position: relative;
+}
+
+nav ul {
+  padding: 0;
+  list-style: none;
+}
+
+nav li {
+  display: inline-block;
+}
+
+a{
+  color: #000000;
+  font-size: .75em;
+  font-family: "futura-pt", sans-serif;
+  font-weight: 700;
+  padding: 0 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+a:visited { /* visited link */
+  background: #5C6A60;
+}
+  a:hover,
+  a:focus {
+    background-color: #5C6A60;
+    opacity: 0.75;
+    color: white;
+    font-weight: 500;
+}
+
+a:active {  /* selected link */
+    background: #5C6A60;
+    color: white;
+    opacity: 0.75;
 }
 
 .profile {
-  float: left;
   width: auto;
   margin: 20px;
 }
 
 .intro {
     background-color: white;
-    margin:  250px 25px 100px 25px;
-    padding: 75px;
-    border: 25px;
+    margin:  80px 15px 15px 15px;
+    padding: 15px;
+    border: 15px;
 }
 
-nav {
-  width: 100%;
-  background-color: white;
-  margin-top: 25px;
-  margin-bottom: 25px;
-  margin-left: 65%;
-  position: fixed;
-  float: right;
-  height: 75px;
-  padding: 25px;
-  border: 5px;
-}
-
-nav ul {
-  padding: 5px 5px;
-  width: 100%;
-  list-style: none;
-  float: right;
-  position: fixed;
-
-}
-
-nav li {
-  display: inline-block;
-  margin-left: 10px;
-  margin-right: 10px;
-  padding-top: 25px;
-}
-
-nav a{
-  color: #000000;
-  font-size: 16px;
-  font-family: "futura-pt", sans-serif;
-  font-weight: 300;
-  padding: 5px 8px 5px 8px;
-  text-decoration: none;
-  text-transform: uppercase;
-}
-
-nav a:hover 
-    a:focus {
-  background-color: #5C6A60;
-  opacity: 0.5;
-  color: white;
-  font-weight: 300;
-}
-
-nav a:active {
-    background: #5C6A60;
-    color: white;
-    opacity: 0.5;
+.hi {
+    background-color: white;
+    margin: 250px 25px 100px 25px;
+    padding: 15px;
+    border: 15px;
   }
 
+.work {
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+}
 .section-break {
   text-align: center;
   font-family: "futura-pt", sans-serif;
@@ -95,23 +93,14 @@ nav a:active {
   color: white;
   font-size: 2.5em;
   background-color: #5C6A60;
-  height: 60px;
-  padding: 30px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
-
-hr {
-  border-style: solid;
-  border-color: #5C6A60;
-  width: 700px;
-  height: 20px;
-  border-top-width: 10px;
-  border-bottom: 10px;
+  padding: 10px;
+  border: 10px;
+  margin: 25px 0;
 }
 
 ul {
   list-style-type: none;
+  line-height: 1.6;
 }
 
 h1 {
@@ -119,6 +108,7 @@ h1 {
   font-size: 2.5em;
   font-weight: 500;
   line-height: 1.6;
+  text-align: center;
 }
 
 h2 {
@@ -126,6 +116,7 @@ h2 {
   font-size: 1.75em;
   font-weight: 400;
   line-height: 1.6;
+  text-align: center;
 }
 
 h3 {
@@ -133,6 +124,7 @@ h3 {
   font-size: 1.5em;
   font-weight: 300;
   line-height: 1.6;
+  text-align: center;
 }
 
 h4 {
@@ -140,6 +132,7 @@ h4 {
   font-size: 1.25em;
   font-weight: 200;
   line-height: 1.6;
+  text-align: center;
 }
 
 p {
@@ -147,8 +140,17 @@ p {
   font-size: 1em;
   font-weight: lighter;
   font-size-adjust:none;
-  padding: 20px;
   line-height: 1.6;
+  text-align: center;
+}
+
+span {
+  font-family: "futura-pt", sans-serif;
+  font-size: 1em;
+  font-weight: lighter;
+  font-size-adjust:none;
+  line-height: 1.6;
+  text-align: center;
 }
 
 li {
@@ -157,6 +159,8 @@ li {
     font-weight: lighter;
     font-size-adjust:none;
   }
+
+
 footer {
  font-family:  "futura-pt", sans-serif;
  font-size: 1em;
@@ -167,52 +171,87 @@ footer {
 }
 
 img {
-  width: 100%
+  width: 100%;
 }
 .title-banner {
     background-color: #5C6A60;
     color: white;
     text-align: center;
-    margin-top:  250px;
+    margin-top:  125px;
     margin-bottom: 100px;
     padding: 25px;
 }
 .quote {
      background-color: white;
      text-align: center;
-     margin:  5px 25px 25px 25px;
-     padding: 25px;
-     border: 25px;
+     margin:  5px 15px;
+     padding: 15px;
+     border: 5px;
+}
+.my-story {
+  background-color: white;
+  margin:  5px 15px;
+  padding: 15px;
+  border: 5px;
 }
 
-.button {
-  background-color: #5D506B; /* PURPLE */
-  border: none;
-  color: white;
-  padding: 10px 20px;
-  text-align: center;
-  text-decoration: none;
+.skills ul {
+  margin: 5px 0;
+  padding: 0 40px;
+}
+
+.button-resume {
+  align-items: center;
+  background-color: white;
+  border-radius: 8px;
+  border: 2px solid #5D506B;
+  color:  #5C6A60;
   display: inline-block;
   font-family: "futura-pt", sans-serif;
   font-size: 1.25em;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  }
+
+.button {
+  align-items: center;
+  background-color: #5D506B; /* PURPLE */
+  border: none;
   border-radius: 8px;
+  color: white;
+  display: inline-block;
+  font-family: "futura-pt", sans-serif;
+  font-size: 1.25em;
+  padding: 15px 20px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  opacity: 75%;
 }
 
-.button :hover {
+.button:hover {
   opacity: 0.5;
   text-decoration: none;
 }
-.button.contact {
+.button-contact {
     background-color: transparent;
-    color: #5D506B !important;
-    text-transform: uppercase;
+    border-radius: 8px;
     border: 2px solid #5D506B;
+    color: #5D506B !important;
     font-family: "futura-pt", sans-serif;
     font-size: 1em;
-    border-radius: 8px;
+    margin: 5px 0;
+    text-transform: uppercase;
 }
 
-.button.contact :hover {
+.button-contact:hover {
   background-color: #5D506B;
-  color: #ffffff !important;
+  color: #ffffff;
+}
+
+.social {
+  text-align: center;
+  margin: 15px;
 }
