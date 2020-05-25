@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
+
 <head>
   <meta charset="utf-8">
   <title>Shelley Cucinotta</title>
@@ -10,96 +11,93 @@
   <link href="favicon.ico" rel="shorcut icon">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body id="index.html">
-    <header><!--header -->
-          <div class="logo">
-                <img src="img/sitephotos/transparentx1.png" alt="logo" class="center">
-          </div>
-          <nav>
-              <ul>
-                  <li><a href="#" class="active">Home</a></li>
-                  <li><a href="work.html">Work</a></li>
-                  <li><a href="mystory.html">My Story</a></li>
-                  <li><a href="contact.html">Contact</a></li>
-              </ul>
-          </nav>
-    </header>
-    <div class="intro">
-            <div class="profile">
-              <picture>
-                <source srcset="img/shelleyphotos/profilex1.png" media="(max-width: 767px)">
-                <img src="img/shelleyphotos/profilex2.png" alt="profile">
-              </picture>
-            </div>
-            <div id="hi">
-                <h2><span style="color:#5D506B;font-weight: 500; font-size: 1.5em;">Hi! I'm Shelley</span>
-                      UX Designer and Front End Developer</h2>
-                  <h3>Dedicated to enhancing the lives of others through, creativity, empathy, and compassion.</h3>
-            </div>
-    </div>
-  <main>   <!-- main -->
-      <div class="section-break">WORK</div><!-- Work -->
-      <div class="work"><!-- Container div -->
-          <div><!--Row div - PROJECT -->
-            <div><!-- Column div -->
-              <picture>
-                <source srcset="img/inktank/logos/x1.png" media="(max-width: 767px)">
-                <img src="img/inktank/logos/x2.png" alt="Ink Tank">
-              </picture>
-            </div>
-            <div><!-- Column div -->
-              <h3>Find. Design. Connect. </h3>
-              <p> Ink Tank is a mobile app that will help users find the perfect
-                tattoo and connect them with an experienced artist.
-                <a href="inktank.html"><u>Ink Tank case study</u></a></p>
 
-            </div>
-          </div><!--END Row / PROJECT -->
-          <div><!--Row div - PROJECT -->
-            <div><!-- Column div -->
-              <picture>
-                <source srcset="img/rockypeak/logos/x1.png" media="(max-width: 767px)">
-                <img src="img/rockypeak/logos/x2.png" alt="Rocky Peak">
-              </picture>
-            </div>
-              <div><!-- Column div -->
-                <h3>Explore the most beautful trails in the Rocky Mountains</h3>
-                <p>Rocky Peak will help users find the perfect hiking or backpacking
-                  trails, users can find educated on wildnerness safety and engage
-                  with others who enjoy the outdoors.
-                  <a href="rockypeak.html"><u>Rocky Peak case study</u></a></p>
-              </div>
-          </div><!--END Row / Project -->
-          <div><!--Row div - PROJECT -->
-            <div><!-- Column div -->
-              <picture>
-                <source srcset="img/rfc/logos/x1.png" media="(max-width: 400px)">
-                <img src="img/rfc/logos/x2.png" alt="RFC">
-              </picture>
-            </div>
-            <div><!-- Column div -->
-              <h3>Real Coaching. Real Results.</h3>
-              <p>Raw Fitness Coaching is a fitness website that provides in-person
-                and online training, small group training and nutrition coaching.
-                <a href="rawfitnesscoaching.html"><u>Raw Fitness Coaching</u></a></p>
-            </div>
-          </div><!--END Row / Project -->
-      </div><!--END Container -->
-    </main>
-    <footer> <!-- footer -->
-      <div><!-- Row div -->
-        <div>
-          <h3>Let's work together!</h3>
-            <a href="mailto:shelleyacucinotta@gmail.com" class="button contact" target="_blank">Send me an email</a>
-        </div>
-        <div class="social">
-            <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
-            <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
-            <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
-        </div>
-            <p> &#169; Shelley Cucinotta 2020</p>
+<body id="index">
+  <header><!--header -->
+    <div id="logo">
+      <img src="img/sitephotos/transparentx1.png" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="work.html">Work</a></li>
+        <li><a href="mystory.html">My Story</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>  <!-- main -->
+  <div class="hero">
+    <picture>
+      <source srcset="img/shelleyphotos/profilex1.png" media="(max-width: 767px)">
+      <img src="img/shelleyphotos/profilex2.png" alt="profile">
+    </picture>
+    <h2>Hi! I'm Shelley</h2>
+    <span>UX Designer and Front End Developer</span>
+    <h3>Dedicated to enhancing the lives of others through, creativity, empathy, and compassion.</h3>
+  </div>
+    <div class="section-break">WORK</div><!-- Work -->
+    <div id="my-work"><!-- Container div -->
+        <div class="row"> <!--Row div - PROJECT -->
+          <div class="col-md-6"> <!-- Column div -->
+            <picture>
+              <source srcset="img/inktank/logos/x1.png" media="(max-width: 767px)">
+              <img src="img/inktank/logos/x2.png" alt="Ink Tank">
+            </picture>
+          </div>
+          <div class="col-md-6"><!-- Column div -->
+            <h3>Find. Design. Connect. </h3>
+            <p> Ink Tank is a mobile app that will help users find the perfect
+              tattoo and connect them with an experienced artist.</p>
+            <a href="inktank.html"><u>Ink Tank case study</u></a>
+          </div>
+        </div><!--END Row / PROJECT -->
+        <div class="row"><!--Row div - PROJECT -->
+          <div class="col-md-6 col-lg-8 col-xl-4"><!-- Column div -->
+            <picture>
+              <source srcset="img/rockypeak/300x200.png" media="(max-width: 767px)">
+              <img src="img/rockypeak/300x200.png" alt="Rocky Peak">
+            </picture>
+          </div>
+          <div class="col-md-6 col-lg-8 col-xl-4"><!-- Column div -->
+            <h3>Explore the most beautful trails in the Rocky Mountains</h3>
+            <p>Rocky Peak will help users find the perfect hiking or backpacking
+              trails, users can find educated on wildnerness safety and engage
+              with others who enjoy the outdoors.</p>
+            <a href="rockypeak.html"><u>Rocky Peak case study</u></a>
+          </div>
+        </div><!--END Row / Project -->
+        <div class="row"><!--Row div - PROJECT -->
+          <div class="col-md-6"><!-- Column div -->
+            <picture>
+              <source srcset="img/rfc/logos/x1.png" media="(max-width: 400px)">
+              <img src="img/rfc/logos/x2.png" alt="RFC">
+            </picture>
+          </div>
+          <div class="col-md-6 col-lg-8 col-xl-4"><!-- Column div -->
+            <h3>Real Coaching. Real Results.</h3>
+            <p>Raw Fitness Coaching is a fitness website that provides in-person
+                and online training, small group training and nutrition coaching.</p>
+            <a href="rawfitnesscoaching.html"><u>Raw Fitness Coaching</u></a>
+          </div>
+        </div><!--END Row / Project -->
+    </div><!--END Container -->
+  </main>
+  <footer id="contact"><!-- footer -->
+    <div><!-- Row div -->
+      <div>
+        <h3>Let's work together!</h3>
+        <a href="mailto:shelleyacucinotta@gmail.com" class="button contact" target="_blank">Send me an email</a>
       </div>
-    </footer>
+      <div class="social">
+        <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
+        <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
+        <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
+      </div>
+      <p> &#169; Shelley Cucinotta 2020</p>
+    </div>
+  </footer>
 </body>
 
 </html>
