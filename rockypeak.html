@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 <head>
-    <meta charset="utf-8">
-    <title>RockyPeak</title>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-    <link rel="stylesheet" href="css/styles.css"
-          href="https://use.typekit.net/bal2nhw.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="favicon.ico" rel="shorcut icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <body id=“rockypeak.html”>
+  <meta charset="utf-8">
+  <title>Rocky Peak</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://use.typekit.net/bal2nhw.css">
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="favicon.ico" rel="shorcut icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
-<body>
+<body id="rockypeak">
   <!--header -->
   <header>
-      <div class="logo">
+      <div id="logo">
             <img src="img/sitephotos/transparentx1.png" alt="logo" class="center">
       </div>
       <nav>
@@ -22,30 +21,31 @@
               <li><a href="index.html">Home</a></li>
               <li><a href="work.html">Work</a></li>
               <li><a href="mystory.html">My Story</a></li>
-              <li><a href="contact.html">Contact</a></li>
+              <li><a href="#contact">Contact</a></li>
           </ul>
       </nav>
   </header>
-      <div><!-- Row div -->
-        <picture>
-          <source srcset="img/rockypeak/bannerx1.png" media="(max-width: 767px)">
-          <img src="img/rockypeak/bannerx2.png" alt="RockyPeak">
-        </picture>
-      </div>
-
-  </main>
-</body>
-<footer>
-  <div><!-- Column div -->
-    <div>
-      <h3>Let's work together!</h3>
-      <a href="mailto:shelleyacucinotta@gmail.com" class="button contact">Send me an email</a>
-    </div>
-    <div>
-        <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
-        <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
-        <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
-    </div>
-        <p> &#169; Shelley Cucinotta 2020</p>
-  </div>
-</footer>
+      <main>
+        <div class="hero"><!-- Row div -->
+          <picture>
+            <source srcset="img/rockypeak/bannerx1.png" media="(max-width: 767px)">
+            <img src="img/rockypeak/bannerx2.png" alt="RockyPeak">
+          </picture>
+        </div>
+      </main>
+      <footer id="contact"><!-- footer -->
+        <div><!-- Row div -->
+          <div>
+            <h3>Let's work together!</h3>
+            <a href="mailto:shelleyacucinotta@gmail.com" class="button contact" target="_blank">Send me an email</a>
+          </div>
+          <div class="social">
+            <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
+            <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
+            <a href="https://dribbble.com/ShelleyACucinotta" target="_blank" class="fa fa-dribbble"></a>
+          </div>
+          <p> &#169; Shelley Cucinotta 2020</p>
+        </div>
+      </footer>
+  </body>
+  </html>
