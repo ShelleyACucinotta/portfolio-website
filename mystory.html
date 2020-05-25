@@ -11,9 +11,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-  <body id=“mystory.html”>
+  <body id=“mystory”>
     <header><!--header -->
-      <div class="logo">
+      <div id="logo">
         <img src="img/sitephotos/transparentx1.png" alt="logo" class="center">
       </div>
       <nav>
@@ -21,12 +21,12 @@
           <li><a href="index.html">Home</a></li>
           <li><a href="work.html">Work</a></li>
           <li><a href="#" class="active">My Story</a></li>
-          <li><a href="contact.html">Contact</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div><!-- Row div / ABOUT -->
+      <div class="about"><!-- Row div / ABOUT -->
         <picture>
           <source srcset="img/shelleyphotos/greecex1.png" media="(max-width: 767px)">
           <img src="img/shelleyphotos/greecex1.png" alt="Shelley Greece">
@@ -87,10 +87,12 @@
         </div>
       </div>
     </main>
-    <footer>
+    <footer id="contact"><!-- footer -->
       <div><!-- Row div -->
-        <h3>Let's work together!</h3>
-        <a href="mailto:shelleyacucinotta@gmail.com" class="button contact">Send me an email</a>
+        <div>
+          <h3>Let's work together!</h3>
+          <a href="mailto:shelleyacucinotta@gmail.com" class="button contact" target="_blank">Send me an email</a>
+        </div>
         <div class="social">
           <a href="https://www.facebook.com/scucinotta" target="_blank" class="fa fa-facebook"></a>
           <a href="https://www.linkedin.com/in/shelley-cucinotta-088149195/" target="_blank" class="fa fa-linkedin"></a>
