@@ -1,30 +1,19 @@
 html{
   font-size: 16px;
   background-color: white;
-  margin-bottom: 20px;
-
 }
 
-header {
+* {
+  box-sizing: border-box;
+}
+
+#header {
   background-color: white;
-  margin: 25px 10px;
+  margin: 25px 5px;
   text-align: center;
   position: relative;
   padding: 10px;
   border-bottom: 2px solid #4a4a4a;
-}
-
-#footer {
- font-family:  "futura-pt", sans-serif;
- font-size: 1em;
- font-weight: lighter;
- font-size-adjust:none;
- text-align: center;
- padding: 20px;
- right: 0;
- left: 0;
- bottom: 0;
- border-top: 2px solid #4a4a4a;
 }
 
 #logo {
@@ -34,7 +23,7 @@ header {
 
 nav {
   background-color: white;
-  border: 15px;
+  border: 10px;
   padding: 5px;
   align-items: center;
   display: inline-block;
@@ -105,14 +94,8 @@ a:active {  /* selected link */
   border: 15px;
 }
 
-.col-md-6 {
-    margin: 40px 0px 25px 0;
-    padding: 15px;
-    border: 15px;
-    text-align: center;
-}
 
-#my-work {
+#work {
   text-align: center;
   margin: 5px;
   padding: 5px;
@@ -137,7 +120,6 @@ a:active {  /* selected link */
 .row {
   padding: 10px;
   margin: 15px;
-  text-align: center;
 }
 
 .section-break {
@@ -350,14 +332,23 @@ img {
   animation: 30s cloud-move-reverse infinite alternate linear;
 }
 
+#footer {
+ font-family: "futura-pt", sans-serif;
+ font-size: 1em;
+ font-weight: lighter;
+ font-size-adjust:none;
+ text-align: center;
+ padding: 20px;
+ margin-bottom: 0;
+}
 /* ==============================
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
-  header {
+  #header {
     text-align: unset;
-    padding: 20px;
+    padding: 5px;
     height: 100px;
   }
 
@@ -366,13 +357,6 @@ Medium devices (640px and larger)
     float: right;
     margin-top: 4px;
     padding-right: 25px;
-  }
-
-
-  header {
-    text-align: unset;
-    padding: 20px 0 13px;
-    height: 80px;
   }
 
   nav {
@@ -394,21 +378,29 @@ Medium devices (640px and larger)
   margin-top: 50px;
 }
 
-#hero span {
+#hero{
+  background-color: yellow;
    display: block;
   }
 
+.intro {
+  width: 40%;
+  background-color: blue;
+  float: right;
+}
 .col-md-6 {
     width: 40%;
-  }
+    background-color: green;
+}
 
-.col-md-7 {
-    width: 40%;
+.col-md-6-left {
+    width: 60%;
+    background-color: purple;
 }
 
 [class*="col-"] {
   float: left;
-  padding: 20px 10px;
+  padding: 5px;
 }
 .row::after {
   content: "";
@@ -417,12 +409,13 @@ Medium devices (640px and larger)
 }
 
 .nav {
-  padding-right: 50px;
+  padding-right: 30px;
 }
 
 .section-break {
   margin: 200px 0px  25px 0px;
 }
+
 }
 
     /* ==============================
