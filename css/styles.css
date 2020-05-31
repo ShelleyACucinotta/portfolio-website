@@ -269,25 +269,25 @@ img {
   }
 
   .button {
-    align-items: center;
-    background-color: white;
-    border-radius: 8px;
-    border-bottom: 2px solid #5C6A60;
-    color:  white !important;
     display: inline-block;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 2px solid #5D506B;
+    color: #5D506B !important;
     font-family: "futura-pt", sans-serif;
-    font-size: 1.25em;
-    font-weight: 400;
-    padding: 10px;
-    text-align: center;
+    font-size: 1em;
+    margin: 5px 0;
+    text-transform: uppercase;
     text-decoration: none;
-    margin: 5px;
+    padding: 10px;
+    border-bottom: 2px solid #5C6A60;
     transition-duration: 0.2s opacity;
     }
 
   .button:hover {
-    opacity: 0.8;
-    text-decoration: none;
+    background-color: #5D506B;
+    color: white !important;
+    border-radius: 8px;
   }
 
   .button-contact {
@@ -312,10 +312,10 @@ img {
       border-radius: 8px;
     }
 
-  .social {
+  #social {
     text-align: center;
-    padding: 10px;
-    margin: 15px;
+    padding: 5px;
+    margin: 10px;
   }
 
   .row-svg {
@@ -497,17 +497,13 @@ Medium devices (640px and larger)
   }
 
   .col-lg-8 {
-      width: 45%;
+      width: 40%;
       padding: 5px;
-      margin-top: 120px;
-      margin-left: 15px;
+      margin-top: 25px;
   }
 
   .col-lg-8-left {
-      width: 45%;
-      padding: 10px;
-      margin-right:40px;
-      margin-top: 40px;
+      width: 60%;
   }
 
   .col-lg-5 {
@@ -537,8 +533,6 @@ Medium devices (640px and larger)
 
   .my-story {
     margin-top: 600px;
-    margin-left: 125px;
-
   }
 
 }
