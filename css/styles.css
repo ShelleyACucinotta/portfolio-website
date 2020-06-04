@@ -8,24 +8,22 @@ html{
   box-sizing: border-box;
 }
 
-#header {
+header {
   background-color: white;
-  margin: 25px 5px;
-  text-align: center;
   position: relative;
-  padding: 10px;
+  padding: 10px 0 4px;
 }
 
-#logo {
+.logo {
     display: inline-block;
     position: relative;
+    max-width: 100px;
 }
 
 nav {
   background-color: white;
   border: 10px;
   padding: 5px;
-  align-items: center;
   display: inline-block;
   position: relative;
 }
@@ -33,6 +31,7 @@ nav {
 nav ul {
   padding: 0;
   list-style: none;
+  margin: 0;
 }
 
 nav li {
@@ -55,8 +54,33 @@ a{
   text-transform: uppercase;
 }
 
+.navtoggle, .navtoggle.responsive {
+  position: relative;
+}
+
+.navtoggle li .icon {
+  position: absolute;
+  right: 0;
+  top: 2px;
+  font-size: 20px;
+  padding-right: 0;
+
+}
+
+.navtoggle li:not(:last-child) {
+  display: none;
+}
+
+.navtoggle.responsive li  {
+  display: block;
+}
+
 a:visited { /* visited link */
   background: #5C6A60;
+}
+
+main {
+  padding-top: 56px;
 }
 
 .button:hover {
@@ -69,7 +93,7 @@ a:active {  /* selected link */
     opacity: 0.75;
 }
 
-.container {
+.nav-container {
   min-height: 100%;
   margin-top: 20px;
   padding-left: 10px;
@@ -81,7 +105,6 @@ a:active {  /* selected link */
   background-color: white;
   padding: 20px 0;
   display: inline-block;
-  margin-top: 25px;
   width: 100%;
 }
 
@@ -323,6 +346,7 @@ img {
   .row-svg {
     text-align: center;
   }
+
   @keyframes color-change {
     0% {fill: #edc655;}
     50% {fill: #fcffad;}
@@ -371,7 +395,7 @@ Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px) {
 
-  #header {
+  header {
     text-align: unset;
     padding: 5px;
     height: 100px;
@@ -385,19 +409,28 @@ Medium devices (640px and larger)
     text-align: right;
   }
 
-  #logo {
+  .navtoggle li:not(:last-child) {
+    display: inline-block;
+  }
+
+  .navtoggle li:last-child {
+  display: none;
+}
+
+  .logo {
     width: auto;
     float: left;
     margin-top: 4px;
     text-align: left;
     padding-left: 40px;
+    max-width: 640px;
   }
 
   .profile {
     max-width: 30%;
     width: 40%;
     float: left;
-    padding-left: 30px 0 30px 40px;
+    padding: 30px 0;
   }
 
   .hero{
@@ -419,7 +452,7 @@ Medium devices (640px and larger)
     border: 10px;
     margin-top: 50px;
     margin: 300px 0px  25px 0px;
-    }
+  }
 
   .col-md-6 {
       width: 38%;
@@ -443,10 +476,6 @@ Medium devices (640px and larger)
     display: table;
   }
 
-  .nav {
-    padding-right: 30px;
-  }
-
   .row-svg {
     text-align: center;
   }
@@ -461,7 +490,6 @@ Medium devices (640px and larger)
     max-width: 1200px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
   }
 
   header {
@@ -477,6 +505,10 @@ Medium devices (640px and larger)
     padding-right: 50px;
   }
 
+  nav > ul {
+    margin: 1em 0;
+  }
+
   .hero{
     background-color: white;
      display: block;
@@ -485,14 +517,14 @@ Medium devices (640px and larger)
 
   .profile {
     text-align: center;
-    margin: 10px 0 10px 50px;
+    margin: 10px 0 10px 30px;
     padding: 10px;
     max-width: 30%;
   }
 
   .intro {
       margin-top: 75px;
-      margin-right: 50px;
+      margin-right: 30px;
       padding: 15px;
       border: 15px;
       text-align: center;
@@ -524,6 +556,7 @@ Medium devices (640px and larger)
   clear: both;
   display: table;
   }
+
 
   .section-break {
     margin: 500px 0 25px 0;
