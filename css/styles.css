@@ -56,7 +56,9 @@ a{
 
 .navtoggle, .navtoggle.responsive {
   position: relative;
+  float: right;
 }
+
 
 .navtoggle li .icon {
   position: absolute;
