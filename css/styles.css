@@ -17,7 +17,7 @@ header {
 .logo {
     display: inline-block;
     position: relative;
-    max-width: 100px;
+    max-width: 60px;
 }
 
 nav {
@@ -57,8 +57,8 @@ a{
 .navtoggle, .navtoggle.responsive {
   position: relative;
   float: right;
-}
 
+}
 
 .navtoggle li .icon {
   position: absolute;
@@ -345,8 +345,22 @@ img {
     margin: 10px;
   }
 
+  .container {
+    min-height: 100%;
+    margin-top: 20px;
+    padding-left: 10px;
+    padding-right: 30px;
+    border: 5px;
+    text-align: left;
+  }
+
   .row-svg {
     text-align: center;
+  }
+  .berlin-illustration {
+    padding: 0 25px;
+    margin: 0 30px;
+    max-width: 75%;
   }
 
   @keyframes color-change {
@@ -466,6 +480,29 @@ Medium devices (640px and larger)
       width: 58%;
   }
 
+  .col-md-2 {
+      width: 48%;
+  }
+
+  .col-md-2-left {
+      width: 48%;
+      float: left;
+  }
+
+  .col-md-3 {
+    width: 33%;
+    float: right;
+  }
+
+  .col-md-3-left {
+    width: 33%;
+    float: left;
+  }
+
+  .col-md-3-mid {
+    width: 33%;
+  }
+
   [class*="col-"] {
     float: left;
     padding-right: 10px;
@@ -477,7 +514,18 @@ Medium devices (640px and larger)
     clear: both;
     display: table;
   }
+  .container {
+    min-height: 100%;
+    margin: 20px 20px 0 20px;
+    padding: 0 30px;
+    border: 5px;
+    text-align: left;
+  }
 
+  #prototype {
+    text-align: center;
+    padding: 30px;
+  }
   .row-svg {
     text-align: center;
   }
@@ -540,12 +588,36 @@ Medium devices (640px and larger)
 
   .col-lg-8-left {
       width: 60%;
+      padding-right: 40px;
   }
 
   .col-lg-5 {
     width: 40%;
     margin-top: 40px;
     margin-left: 20px;
+  }
+
+  .col-lg-6 {
+      width: 48%;
+  }
+
+  .col-lg-6-left {
+      width: 48%;
+      float: left;
+  }
+
+  .col-lg-9 {
+    width: 33%;
+    float: right;
+  }
+
+  .col-lg-9-left {
+    width: 33%;
+    float: left;
+  }
+
+  .col-lg-9-mid {
+    width: 33%;
   }
 
   [class*="col-"] {
@@ -559,9 +631,11 @@ Medium devices (640px and larger)
   display: table;
   }
 
-
+  .container-row {
+    margin-top: 50px;
+  }
   .section-break {
-    margin: 500px 0 25px 0;
+    margin: 600px 0 25px 0;
   }
 
   .row-svg {
@@ -570,6 +644,28 @@ Medium devices (640px and larger)
 
   .my-story {
     margin-top: 600px;
+  }
+
+  .casestudy-img{
+    text-align: center;
+    padding: 0 30px;
+  }
+    .tools-img {
+    text-align: center;
+    padding: 0 30px;
+  }
+
+  #inktankdisplay {
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  #prototype {
+    text-align: center;
+    padding: 50px;
   }
 
 }
