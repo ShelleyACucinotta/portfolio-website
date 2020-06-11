@@ -48,7 +48,7 @@ a{
   color: #000000;
   font-size: .75em;
   font-family: "futura-pt", sans-serif;
-  font-weight: 700;
+  font-weight: 500;
   padding: 0 15px;
   text-decoration: none;
   text-transform: uppercase;
@@ -81,7 +81,7 @@ a:visited { /* visited link */
 }
 
 main {
-  padding-top: 56px;
+  padding-top: 20px;
 }
 
 .button:hover {
@@ -113,7 +113,7 @@ a:active {  /* selected link */
 .profile {
   background-color: white;
   margin: 10px 30px;
-  padding: 25px;
+  padding: 10px 25px;
   border: 15px;
 }
 
@@ -163,7 +163,7 @@ a:active {  /* selected link */
 
 .pdflink {
   text-align: center;
-  transition-duration: 0.2s opacity;
+  transition-duration: 0.2s;
 }
 
 ul {
@@ -567,7 +567,7 @@ Medium devices (640px and larger)
 
   .profile {
     text-align: center;
-    margin: 10px 0 10px 30px;
+    margin: 10px 0 10px 60px;
     padding: 10px;
     max-width: 30%;
   }
@@ -581,14 +581,14 @@ Medium devices (640px and larger)
   }
 
   .col-lg-8 {
-      width: 40%;
+      width: 35%;
       padding: 5px;
-      margin-top: 25px;
+      margin: 125px 25px 25px 75px;
   }
 
   .col-lg-8-left {
-      width: 60%;
-      padding-right: 40px;
+      width: 40%;
+      margin: 25px 25px 25px 100px;
   }
 
   .col-lg-5 {
